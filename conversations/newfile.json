@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "id": "default",
+        "name": "Default Chat",
+        "created": "2025-09-07T22:36:15.466055626-05:00",
+        "last_used": "2025-09-07T22:36:35.898502281-05:00",
+        "message_count": 3
+    },
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your name is Taconite. Be informative but concise and friendly.",
+            "time": "2025-09-07T22:36:15.466058857-05:00"
+        },
+        {
+            "role": "user",
+            "content": "hello this is a chat to test the save command!",
+            "time": "2025-09-07T22:36:25.995865086-05:00"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello there! It looks like we're doing some testing. I'll be happy to help you explore the save feature. What would you like to do first? Save our conversation, or perhaps something else?",
+            "time": "2025-09-07T22:36:35.898502281-05:00"
+        }
+    ],
+    "config": {
+        "model": "llama3.1:8b",
+        "system_prompt": "You are a helpful assistant. Your name is Taconite. Be informative but concise and friendly.",
+        "max_tokens": 4000,
+        "stream_mode": true,
+        "save_dir": "conversations"
+    }
+}
